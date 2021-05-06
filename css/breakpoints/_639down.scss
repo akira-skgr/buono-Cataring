@@ -1,0 +1,222 @@
+/******************************************************************
+
+Stylesheet: 639px以下(スマホ)で適用
+
+******************************************************************/
+/*ヘッダー*/
+
+.menu-btn {
+    display: inline !important;
+}
+
+.header {
+    height: 45px !important;
+}
+.header_nav {
+    display: none!important;
+}
+
+.header_logo {
+    width: 49% !important;
+    height: 20px !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    margin-left: 20px !important;
+}
+
+
+/*ファーストビュー*/
+.fv {
+    display: none;
+}
+.fv1 {
+    display: inline!important;
+    width: 100%;
+    height: 468px;
+    margin-top: 45px !important;
+}
+/*特徴*/
+.feature_ttl {
+    margin-top: 60px !important;
+}
+.feature_card {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+.feature_list_img {
+    display: none !important;
+}
+.feature_list_01 {
+    width: 87% !important;
+    border: 3px solid;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-color: #B0EEB0;
+    
+}
+.feature_list_02 {
+    width: 87% !important;
+    border: 3px solid;
+    margin-bottom: 30px;
+    border-color: #FFD5E7;
+}
+.feature_list_03 {
+    width: 87% !important;
+    border: 3px solid;
+    margin-bottom: 30px;
+    border-color: #F2C6FF;
+}
+
+.feature_list_inr {
+    padding-bottom: 28px;
+}
+}
+
+/*プラン*/
+.plan_card {
+    display: flex;
+    flex-flow: column;
+    width: 100% !important;
+
+    .plan_img_inr {
+        width: 89% !important;
+        margin-top: 35px;
+        margin-bottom: 59px;
+    }
+
+    .plan_img {
+        width: 100% !important;
+        
+    }
+}
+.plan2 {
+    display: flex;
+    flex-flow: column !important;
+}
+
+/*エリア*/
+.area_card {
+    display: flex;
+    flex-flow: column !important;
+    align-items: center;
+
+    .area_img {
+        margin: 0 auto;
+        padding: 0 !important;
+    }
+    
+    .area_inr_ttl {
+        margin-top: 30px;
+
+    } 
+    .area_card_inr {
+        width: 90% !important;
+    }
+}
+
+.ifram-warp {
+    width: 90%;
+}
+
+iframe {
+    width: 100% !important;
+    height: 198px !important;
+    
+}
+
+/*コンタクト*/
+.contact_inr {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Form {
+    width: 90%;
+}
+
+.Form-Item_01 {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    width: 80%;
+}
+
+.Form-Item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.Form-Item-Label {
+    text-align: left;
+    max-width: 90% !important;
+}
+
+.Form-Item-Input {
+    margin-left: 0 !important;
+    width: 90% !important;
+    margin-top: 10px;
+}
+
+.Form-Item-Textarea {
+    margin-left: 0 !important;
+    width: 90% !important;
+    margin-top: 10px;
+}
+
+
+.contact_inr2 {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: normal !important;
+}
+
+
+
+/*フッター*/
+.footer {
+    padding-top: 50px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+
+}
+
+.footer_img {
+    width: 95% !important;
+    height: 27px !important;
+    margin: 0 auto;
+
+}
+.footer_img img {
+    height: 27px;
+}
+
+
+
+.footer_inr {
+    display: flex;
+    flex-flow: column;
+    align-items: center !important;
+    margin-top: 0px !important;
+
+}
+
+.footer_inr p {
+    margin-top: 60px;
+}
+.footer_p {
+    font-size: 10px;
+}
+
+#hamburger {
+    display: inline !important;
+}
+#hamburger .btn-gNav{
+   
+    top: 13px !important;
+}

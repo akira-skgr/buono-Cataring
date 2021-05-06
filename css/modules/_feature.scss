@@ -1,0 +1,33 @@
+
+.feature_ttl {
+    text-align: center;
+    color: #FF7F7F;
+    margin-top: 106px;
+    margin-bottom: 56px;
+}
+
+.feature_card {
+  display: flex;
+  justify-content: center;
+
+  .feature_list_01 {
+    width: 25%;
+    padding: 0 14px;
+  }
+  .feature_list_02 {
+    width: 25%;
+    padding: 0 14px;
+  }
+  .feature_list_03 {
+    width: 25%;
+    padding: 0 14px;
+  }
+  
+
+  .feature_list_ttl {
+      text-align: center;
+      margin-top: 21px;
+      margin-bottom: 17px;
+      
+  }
+}

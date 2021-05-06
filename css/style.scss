@@ -1,0 +1,24 @@
+
+@import 'breakpoints/base';
+
+@media (max-width: 1023px) {
+  @import 'breakpoints/1023down';
+}
+
+@media (max-width: 639px) {
+  @import 'breakpoints/639down';
+}
+
+@import 'modules/header';
+
+@import 'modules/fv';
+
+@import 'modules/feature';
+
+@import 'modules/plan';
+
+@import 'modules/area';
+
+@import 'modules/contact';
+
+@import 'modules/footer';

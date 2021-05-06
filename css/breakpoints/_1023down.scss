@@ -1,0 +1,44 @@
+/******************************************************************
+
+Stylesheet: 1023px以下（タブレット）で適用
+
+******************************************************************/
+
+.menu-btn {
+    display: inline !important;
+}
+
+.header {
+    height: 45px !important;
+}
+.header_nav {
+    display: none!important;
+}
+
+#hamburger {
+    display: inline !important;
+}
+
+#hamburger .btn-gNav{
+   
+    top: 30px !important;
+}
+
+.area_card {
+    display: flex;
+    flex-flow: column !important;
+    align-items: center;
+
+    .area_img {
+        margin: 0 auto;
+        padding: 0 !important;
+    }
+    
+    .area_inr_ttl {
+        margin-top: 30px;
+
+    } 
+    .area_card_inr {
+        width: 72% !important;
+    }
+}

@@ -1,0 +1,52 @@
+.plan_ttl {
+    text-align: center;
+    color: #FF7F7F;
+    margin-top: 106px;
+    margin-bottom: 56px;
+}
+
+.pink {
+    background:linear-gradient(transparent 60%, #FFD5E7 60%);
+}
+
+.plan_card {
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+
+    .plan_img {
+        width: 399px;
+        height: auto;
+    }
+
+    .plan_inr_ttl {
+        text-align: center;
+        color: #FF7F7F;
+        
+    }
+
+
+    .plan_inr_sub {
+        text-align: center;
+        margin-top: 25px;
+        color: #FF7F7F;
+        font-weight: bold;
+    }
+
+    .plan_inr_inr {
+        margin-top: 17px;
+    }
+
+    .plan_img_inr {
+        width: 49%;
+       
+    }
+
+    
+}
+
+.plan2 {
+    flex-direction: row-reverse;
+}
